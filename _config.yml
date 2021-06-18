@@ -21,8 +21,8 @@
 title: Your awesome title
 email: daniil.koshelyuk@gmail.com
 description: Website for autonomo project of Daniil Koshelyuk.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/project.github.io" # the subpath of your site, e.g. /blog
+url: "https://daniil.koshelyuk.site" # the base hostname & protocol for your site, e.g. http://example.com
 
 contacts:
     - content:
@@ -40,7 +40,7 @@ contacts:
     # - twitter:
     #     type:             twitter
     #     url:              https://twitter.com/dkfactotum
-    
+
 # Default values for front matter
 defaults:
     - scope:
