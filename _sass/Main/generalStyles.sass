@@ -1,0 +1,36 @@
+body
+    display: block
+    position: relative
+    font-family: "Raleway"
+    height: 100vh
+    width: 100vw
+    color: $textClorMain
+    text-decoration: none
+    background-color: $backgroundColor
+
+    .secondary
+        color: $textClorSecondary
+        text-decoration: overline
+
+    .capitalize
+        text-transform: uppercase
+        
+    ul
+        list-style-type: none
+
+        li
+            margin-top: 1vh
+
+    a
+        color: $linkColor
+        text-decoration: none
+
+        &.secondary
+            text-decoration: overline
+
+        &:visited
+            color: $linkColorExtra
+
+        &:hover
+            color: $linkColorHover
+            text-decoration: none

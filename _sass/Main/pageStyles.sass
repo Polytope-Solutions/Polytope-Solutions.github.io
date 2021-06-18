@@ -1,0 +1,32 @@
+.limited
+    max-width: $maxWidth
+
+    @media screen and (max-width: $screenWidthSmall)
+        width: $maxWidthSmall
+        margin: auto
+
+.centered
+    margin: auto
+    text-align: justify
+
+
+.section
+    display: flex
+    position: relative
+    width: 100vw
+    min-height: 25vh
+    justify-content: center
+    align-items: center
+
+    .content
+        display: block
+
+        li, h3
+            text-align: left
+
+    > *
+        // min-width: 100%
+        text-align: center
+
+.big
+    min-height: 90vh

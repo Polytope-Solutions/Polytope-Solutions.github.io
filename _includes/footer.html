@@ -1,0 +1,9 @@
+<div class="footer">
+   <ul class="contact-container">
+      {% for contact in site.contacts %}
+      <li>
+         <a href="{{ contact.content.url }}">{{ contact.content.type }}</a>
+      </li>
+      {% endfor %}
+   </ul>
+</div>

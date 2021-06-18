@@ -1,0 +1,45 @@
+.navigation-button-holder
+  display: block
+  position: fixed
+  z-index: 4
+  top: 2vw
+  right: 2vw
+  width: 15vw
+
+  @media screen and (min-width: $screenWidthHideNavigation)
+    display: none
+
+  .navigation-button
+    display: block
+    width: 100%
+    text-align: right
+    display: red
+
+.navigation-section
+  position: fixed
+  display: flex
+  z-index: 3
+  width: 25vw
+  height: 100vh
+  top: 0
+  right: 2vW
+  align-items: center
+
+  @media screen and (max-width: $screenWidthHideNavigation)
+    display: none
+
+    &.shown
+      display: flex
+
+  .navigation-container
+    width: 100%
+
+    .navigation-item
+      display: block
+      min-width: 100%
+      left: 0
+      text-align: right
+      margin: ($contentOffset / 2) 0 ($contentOffset / 2) 0
+
+    &.secondary
+      margin: ($contentOffset / 2) 0 ($contentOffset / 2) 0
