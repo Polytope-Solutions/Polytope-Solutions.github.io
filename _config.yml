@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Polytope
+subtitle: Computational Design and Creative Coding
 email: daniil.koshelyuk@gmail.com
 description: Website for autonomo project of Daniil Koshelyuk.
 baseurl: "/project.github.io" # the subpath of your site, e.g. /blog
@@ -53,25 +54,36 @@ defaults:
         image:              true
 
 # Build settings
-theme: minima
+theme:                      minima
+markdown:                   kramdown
 plugins:
   - jekyll-feed
+  - jekyll-datapage-generator
   - github-pages
 
+# Pages to Auto generate
+# page_gen-dirs:              true
+page_gen:
+    - data:                 'services'
+      template:             'service'
+      name:                 'serviceName'
+      dir:                  'services'
+      title:                'serviceName'
+
 sass:
-   sass_dir:                _sass
-   style:                   compressed
+    sass_dir:               _sass
+    style:                  compressed
 
 # GitHub Pages
-lsi:                      false
-safe:                     true
-incremental:              false
-highlighter:              rouge
+lsi:                        false
+safe:                       true
+incremental:                false
+highlighter:                rouge
 gist:
-    noscript:             false
+    noscript:               false
 kramdown:
-    math_engine:          mathjax
-    syntax_highlighter:   rouge
+    math_engine:            mathjax
+    syntax_highlighter:     rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.

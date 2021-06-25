@@ -12,14 +12,31 @@ body
         color: $textClorSecondary
         text-decoration: overline
 
-    .capitalize
+    .upper
         text-transform: uppercase
-        
+
+    .lower
+        text-transform: lowercase
+
+    hr
+        height: 1px
+        background-color: $linkColor
+        border: none
+
     ul
         list-style-type: none
+        margin: 0
 
         li
             margin-top: 1vh
+
+            &.highlight
+                background: $backgroundColorHighlight
+
+            .textCentered
+                display: block
+                text-align: center
+                margin: auto
 
     a
         color: $linkColor

@@ -1,23 +1,16 @@
 ---
 layout: base
-title: Polytope
-permalink: /
+title: Services
+permalink: /services
 ---
 
 <div class="section big">
    <div class="content limited centered">
         <h1 class="upper">{{ site.title }}</h1>
         <br>
-        <h2 class="lower">{{ site.subtitle }}</h2>
-        <br>
+        <h2 class="lower">Services</h2>
         <br>
 
-        <p>Site in development for a project Polytope of Daniil Koshelyuk.</p>
-
-        <br>
-        <hr>
-        <br>
-        <p>Services:</p>
         <ul>
             {% for service in site.data.services %}
             <li class="highlight">
