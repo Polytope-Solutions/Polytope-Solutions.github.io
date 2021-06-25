@@ -20,10 +20,10 @@
 
 title: Polytope
 subtitle: Computational Design and Creative Coding
-email: daniil.koshelyuk@gmail.com
+email: polytope.solutions@gmail.com
 description: Website for autonomo project of Daniil Koshelyuk.
-baseurl: "/project.github.io" # the subpath of your site, e.g. /blog
-url: "https://daniil.koshelyuk.site" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.polytope.solutions" # the base hostname & protocol for your site, e.g. http://example.com
 
 contacts:
     - content:
