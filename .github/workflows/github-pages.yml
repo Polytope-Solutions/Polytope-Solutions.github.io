@@ -1,4 +1,4 @@
-name: Jekyll Actions
+name: Modified Jekyll Actions
 
 on:
   push:
