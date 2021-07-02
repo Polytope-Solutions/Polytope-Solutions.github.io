@@ -1,13 +1,13 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Jekyll Actions
 
 on:
   push:
     branches:
       - master
-
+      
 jobs:
   github-pages:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
 
@@ -19,7 +19,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
             
-      - uses: helaili/jekyll-action@2.0.1
+      - uses: helaili/jekyll-action@2.2.0
         with:
-          token: ${{ secrets.TOKEN }}
-          target_branch: 'gh-pages'
+          # The GITHUB_TOKEN secret
+          token: ${{ secrets.SITE }}
+          # The target branch name the sources get pushed to
+          target_branch: gh_pages
