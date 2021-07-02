@@ -22,7 +22,7 @@ permalink: /
             {% for service in site.data.services %}
             <li class="highlight">
                 {% assign elementLink = service.serviceName | downcase | replace: " ", "-" | append: ".html" %}
-                {% assign elementFullLink = "/services/" | prepend: site.baseurl | prepend: site.url | append: elementLink %}
+                {% assign elementFullLink = "/services/" | prepend: site.baseurl | append: elementLink %}
                 <a class="textCentered" href="{{ elementFullLink }}">
                     {{ service.serviceName }}
                 </a>

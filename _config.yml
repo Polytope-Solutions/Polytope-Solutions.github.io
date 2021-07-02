@@ -59,7 +59,6 @@ markdown:                   kramdown
 plugins:
   - jekyll-feed
   - jekyll-datapage-generator
-  - github-pages
 
 # Pages to Auto generate
 # page_gen-dirs:              true
