@@ -5,14 +5,13 @@
 </div>
 <div class="navigation-section">
     <div class="navigation-container">
-        <div class="navigation-item">
-            <a href="{{ '/' | prepend: site.baseurl }}"><b>home</b></a>
-        </div>
-        <div class="navigation-item">
-            <a href="{{ '/about' | prepend: site.baseurl }}"><b>about</b></a>
-        </div>
-        <div class="navigation-item">
-            <a href="{{ '/services' | prepend: site.baseurl }}"><b>services</b></a>
-        </div>
+        {% for navItem in site.navigation %}
+            {% assign link = navItem.link | prepend: site.baseurl %}
+            {% if link != page.permalink %}
+                <div class="navigation-item">
+                    <a href="{{ link }}"><b>{{ navItem.navItem }}</b></a>
+                </div>
+            {% endif %}
+        {% endfor %}
     </div>
 </div>

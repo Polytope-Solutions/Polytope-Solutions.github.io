@@ -8,7 +8,7 @@ permalink: /services
    <div class="content limited centered">
         <h1 class="upper">{{ site.title }}</h1>
         <br>
-        <h2 class="lower">Services</h2>
+        <h2 class="lower">{{ page.title }}</h2>
         <br>
 
         <ul>
