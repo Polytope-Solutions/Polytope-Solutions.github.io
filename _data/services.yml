@@ -1,4 +1,12 @@
 -   serviceName: Test1
+    lang:
+        Eng: Test1Eng
+        Esp: Test1Esp
+        Cat: Test1Cat
     test: test
 -   serviceName: Test2
+    lang:
+        Eng: Test2Eng
+        Esp: Test2Esp
+        Cat: Test2Cat
     test: test

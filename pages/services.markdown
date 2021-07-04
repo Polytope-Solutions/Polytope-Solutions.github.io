@@ -6,21 +6,30 @@ permalink: /services
 
 <div class="section big">
    <div class="content limited centered">
-        <h1 class="upper">{{ site.title }}</h1>
-        <br>
-        <h2 class="lower">{{ page.title }}</h2>
-        <br>
+        {% for langItem in site.languages %}
+            {% assign language = langItem.langItem %}
+            <div class="lang-section {{ language }}">
+                <h1 class="upper">{{ site.title }}</h1>
+                <br>
+                <h2 class="lower">{{ site.data.pageServices.subtitle[language] }}</h2>
+                <br>
+                <br>
 
-        <ul>
-            {% for service in site.data.services %}
-            <li class="highlight">
-                {% assign elementLink = service.serviceName | downcase | replace: " ", "-" | append: ".html" %}
-                {% assign elementFullLink = "/services/" | prepend: site.baseurl | prepend: site.url | append: elementLink %}
-                <a class="textCentered" href="{{ elementFullLink }}">
-                    {{ service.serviceName }}
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
+                <p>{{ site.data.pageServices.description[language] }}</p>
+                <br>
+
+                <ul>
+                    {% for service in site.data.services %}
+                    <li class="highlight">
+                        {% assign elementLink = service.serviceName | downcase | replace: " ", "-" | append: ".html" %}
+                        {% assign elementFullLink = "/services/" | prepend: site.baseurl | prepend: site.url | append: elementLink %}
+                        <a class="textCentered" href="{{ elementFullLink }}">
+                            {{ service.lang[language] }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
    </div>
 </div>

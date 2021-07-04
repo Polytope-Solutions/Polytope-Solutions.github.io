@@ -1,0 +1,20 @@
+- navItem:              "home"
+  link:                 "/"
+  lang:
+      Eng:            "home"
+      Esp:            "inicio"
+      Cat:            "inici"
+      
+- navItem:              "about"
+  link:                 "/about"
+  lang:
+      Eng:            "about me"
+      Esp:            "quien soy"
+      Cat:            "qui soc"
+      
+- navItem:              "services"
+  link:                 "/services"
+  lang:
+      Eng:            "services"
+      Esp:            "sevicios"
+      Cat:            "serveis"

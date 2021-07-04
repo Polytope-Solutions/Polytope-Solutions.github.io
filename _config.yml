@@ -29,24 +29,12 @@ contacts:
     - content:
         type:               github
         url:                https://github.com/Polytope-Solutions
-    - content:
-        type:               personla site
-        url:                https://daniil.koshelyuk.site
-    - content:
-        type:               personal LinkedIn
-        url:                https://www.linkedin.com/in/dkfactotum/
-    # - twitter:
-    #     type:             twitter
-    #     url:              https://twitter.com/dkfactotum
 
-navigation:
-    - navItem:              "home"
-      link:                 "/"
-    - navItem:              "about"
-      link:                 "/about"
-    - navItem:              "services"
-      link:                 "/services"
-
+languages:
+    - langItem:             "Eng"
+    - langItem:             "Esp"
+    - langItem:             "Cat"
+defaultLanguage:            "Eng"
 
 # Default values for front matter
 defaults:

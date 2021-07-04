@@ -5,13 +5,33 @@
 </div>
 <div class="navigation-section">
     <div class="navigation-container">
-        {% for navItem in site.navigation %}
-            {% assign link = navItem.link | prepend: site.baseurl %}
-            {% if link != page.permalink %}
-                <div class="navigation-item">
-                    <a href="{{ link }}"><b>{{ navItem.navItem }}</b></a>
-                </div>
-            {% endif %}
+         {% for langItem in site.languages %}
+             {% assign language = langItem.langItem %}
+             <div class="lang-section {{ language }}">
+                {% for navItem in site.data.navigation %}
+                    {% assign link = navItem.link | prepend: site.baseurl %}
+                    {% if link != page.permalink %}
+                        <div class="navigation-item">
+                            <a href="{{ link }}"><b>{{ navItem.lang[language] }}</b></a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
         {% endfor %}
     </div>
+</div>
+<div class="navigation-language-holder">
+    <ul class="horizontal-list">
+        {% for langItem in site.languages %}
+            {% assign active = "" %}
+            {% if langItem.langItem == site.defaultLanguage %}
+                {% assign active = "active" %}
+            {% endif %}
+            <li class="lang-element {{ langItem.langItem }} {{ active }}">
+                <p>
+                    {{ langItem.langItem }}
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
 </div>

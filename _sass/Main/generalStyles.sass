@@ -26,6 +26,7 @@ body
     ul
         list-style-type: none
         margin: 0
+        padding: 0
 
         li
             margin-top: 1vh
@@ -37,6 +38,14 @@ body
                 display: block
                 text-align: center
                 margin: auto
+
+
+        &.horizontal-list
+            li
+                display: inline-block
+                margin: auto 10px auto 10px
+
+
 
     a
         color: $linkColor
