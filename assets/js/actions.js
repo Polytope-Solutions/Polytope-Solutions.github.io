@@ -55,16 +55,12 @@ function resetLanguage() {
         langElement;
     if (lang == "Null")
         lang = defaultLanguage;
-    console.log("Initial lnaguage detecte: " + lang);
+    console.log("Initial lnaguage detected: " + lang);
 
-    for (i = 0; i < languages.length; i++){
-        if (lang == languages[i]) {
-            langElement = $('.lang-element.'+languages[i]);
-            console.log(langElement);
-            langElement.click();
-            break;
-        }
-    }
+    langElement = $('.lang-element.'+lang);
+    console.log("LangElement: "+langElement);
+    if (langElement)
+        langElement.click();
 };
 ////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////// General ////////////////////////////////////

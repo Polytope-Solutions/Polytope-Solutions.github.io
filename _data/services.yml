@@ -3,10 +3,17 @@
         Eng: Test1Eng
         Esp: Test1Esp
         Cat: Test1Cat
-    test: test
+    description:
+        Eng: Content coming soon!
+        Esp: ¡Contenido viene pronto!
+        Cat: Contingut ve pronperament!
+        
 -   serviceName: Test2
     lang:
         Eng: Test2Eng
         Esp: Test2Esp
         Cat: Test2Cat
-    test: test
+    description:
+        Eng: Content coming soon!
+        Esp: ¡Contenido viene pronto!
+        Cat: Contingut ve pronperament!

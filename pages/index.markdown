@@ -26,7 +26,7 @@ permalink: /
                     <li class="highlight">
                         {% assign elementLink = service.serviceName | downcase | replace: " ", "-" | append: ".html" %}
                         {% assign elementFullLink = "/services/" | prepend: site.baseurl | append: elementLink %}
-                        <a class="textCentered" href="{{ elementFullLink }}">
+                        <a class="contentCenter" href="{{ elementFullLink }}">
                             {{ service.lang[language] }}
                         </a>
                     </li>
