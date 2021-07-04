@@ -19,19 +19,19 @@
             </div>
         {% endfor %}
     </div>
-</div>
-<div class="navigation-language-holder">
-    <ul class="horizontal-list contentRight">
-        {% for langItem in site.languages %}
-            {% assign active = "" %}
-            {% if langItem.langItem == site.defaultLanguage %}
-                {% assign active = "active" %}
-            {% endif %}
-            <li class="lang-element {{ langItem.langItem }} {{ active }}">
-                <p>
-                    {{ langItem.langItem }}
-                </p>
-            </li>
-        {% endfor %}
-    </ul>
+    <div class="navigation-language-holder">
+        <ul class="horizontal-list contentRight">
+            {% for langItem in site.languages %}
+                {% assign active = "" %}
+                {% if langItem.langItem == site.defaultLanguage %}
+                    {% assign active = "active" %}
+                {% endif %}
+                <li class="lang-element {{ langItem.langItem }} {{ active }}">
+                    <p>
+                        {{ langItem.langItem }}
+                    </p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
