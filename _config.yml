@@ -30,6 +30,9 @@ contacts:
     - content:
         type:               github
         url:                https://github.com/Polytope-Solutions
+    - content:
+        type:               instagram
+        url:                https://www.instagram.com/polytope.solutions/
 
 languages:
     - langItem:             "Eng"

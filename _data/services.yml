@@ -1,18 +1,58 @@
--   serviceName: Test1
+-   serviceName: Interactive-Visualization
     lang:
-        Eng: Test1Eng
-        Esp: Test1Esp
-        Cat: Test1Cat
+        Eng: Interactive Visualization
+        Esp: Visualización interactiva
+        Cat: Visualització interactiva
     description:
         Eng: Content coming soon!
         Esp: ¡Contenido viene pronto!
         Cat: Contingut ve pronperament!
-        
--   serviceName: Test2
+
+-   serviceName: Parametric-Design
     lang:
-        Eng: Test2Eng
-        Esp: Test2Esp
-        Cat: Test2Cat
+        Eng: Parametric Design
+        Esp: Diseño Paramétrico
+        Cat: Disseny piramètric
+    description:
+        Eng: Content coming soon!
+        Esp: ¡Contenido viene pronto!
+        Cat: Contingut ve pronperament!
+
+-   serviceName: Digital-Fabrication-Design
+    lang:
+        Eng: Design for Digital Fabrication
+        Esp: Diseño para fabricación digital
+        Cat: Disseny per a fabricació digital
+    description:
+        Eng: Content coming soon!
+        Esp: ¡Contenido viene pronto!
+        Cat: Contingut ve pronperament!
+
+-   serviceName: Computational-Design-Courses
+    lang:
+        Eng: Computational Design Courses
+        Esp: Cursos de diseño computacional
+        Cat: Cursos de Disseny Computacional
+    description:
+        Eng: Content coming soon!
+        Esp: ¡Contenido viene pronto!
+        Cat: Contingut ve pronperament!
+
+-   serviceName: Custom-Scripting
+    lang:
+        Eng: Custom Scripting
+        Esp: Scripts personalizados
+        Cat: Scripts personalitzats
+    description:
+        Eng: Content coming soon!
+        Esp: ¡Contenido viene pronto!
+        Cat: Contingut ve pronperament!
+
+-   serviceName: 3D-Asset-Developemnt
+    lang:
+        Eng: 3D Asset Development
+        Esp: Desarollo de Assets 3D
+        Cat: Desenvolupament d'assets 3D
     description:
         Eng: Content coming soon!
         Esp: ¡Contenido viene pronto!
