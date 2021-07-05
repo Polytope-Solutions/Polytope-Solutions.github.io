@@ -4,7 +4,7 @@
     z-index: 4
     top: 2vw
     right: 2vw
-    width: 15vw
+    width: 25vw
 
     @media screen and (min-width: $screenWidthHideNavigation)
         display: none
@@ -50,8 +50,11 @@
     z-index: 4
     bottom: 2vw
     right: 2vw
-    min-width: 10vw
+    min-width: 25vw
     justify-content: left
+
+    @media screen and (max-width: $screenWidthSmall)
+        font-size: 1.5vh
 
     > *
 
