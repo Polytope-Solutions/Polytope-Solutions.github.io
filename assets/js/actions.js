@@ -10,6 +10,9 @@ document.addEventListener('click', function (event) {
     var menu = $( ".navigation-section" );
     console.log(menu);
     menu.toggleClass("shown");
+
+    var menuButton = $( ".navigation-button" );
+    menuButton.toggleClass("disabled");
 }, false);
 ////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////// Language ///////////////////////////////////
