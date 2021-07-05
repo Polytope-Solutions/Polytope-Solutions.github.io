@@ -9,7 +9,7 @@ permalink: /about
         {% for langItem in site.languages %}
             {% assign language = langItem.langItem %}
             <div class="lang-section {{ language }}">
-                <h1 class="upper">{{ site.title }}</h1>
+                <h1 class="upper"><a href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a></h1>
                 <br>
                 <h2 class="lower">{{ site.data.pageAbout.subtitle[language] }}</h2>
                 <br>
