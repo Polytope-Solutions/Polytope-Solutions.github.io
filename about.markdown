@@ -15,7 +15,7 @@ permalink: /about
                 <br>
                 <br>
 
-                <p>{{ site.data.pageAbout.description[language] }}</p>
+                <p class="contentFit underlineLinks">{{ site.data.pageAbout.description[language] }}</p>
                 <br>
             </div>
         {% endfor %}

@@ -54,6 +54,8 @@ body
         text-align: left
         margin: auto
 
+    .contentFit
+        text-align: justify
 
     a
         color: $linkColor
@@ -68,6 +70,14 @@ body
         &:hover
             color: $linkColorHover
             text-decoration: none
+
+    .underlineLinks
+        a
+            text-decoration: underline
+            text-underline-offset: 3px
+
+            &:hover
+                text-decoration: underline
 
     h1, h2
         font-weight: bold

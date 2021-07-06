@@ -117,22 +117,27 @@ function getLinkParameter(object, param) {
 };
 // Set given value of given parametr in URL.
 function setLinkParameter(object, param, value) {
-    var query = $(object).attr('href');
-    // console.log(query);
-    if (value != "Null" && query != null) {
-        var valueCurrent = getLinkParameter(object, param),
-            sign = '?',
-            newUrl;
+    var query = $(object).attr('href'),
+        baseLink = window.location.hostname;
+    console.log(query);
+    console.log(baseLink);
 
-        if (valueCurrent == "Null") {
-            newUrl = query + sign + param + "=" + value;
-        }
-        else {
-            newUrl = query.replace(
-                param + "=" + valueCurrent,
-                param + "=" + value);
+    if (query.includes(baseLink) || query.startsWith("/")){ // second is for testing locally 
+        if (value != "Null" && query != null) {
+            var valueCurrent = getLinkParameter(object, param),
+                sign = '?',
+                newUrl;
+
+            if (valueCurrent == "Null") {
+                newUrl = query + sign + param + "=" + value;
+            }
+            else {
+                newUrl = query.replace(
+                    param + "=" + valueCurrent,
+                    param + "=" + value);
+            };
+
+            $(object).attr('href', newUrl);
         };
-
-        $(object).attr('href', newUrl);
     };
 };

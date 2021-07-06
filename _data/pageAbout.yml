@@ -4,9 +4,39 @@ subtitle:
     Cat: Qui soc
 
 description:
-    Eng: Site in development for a project Polytope of Daniil Koshelyuk.
-    Esp: Sitio web en desarrollo para un proyecto Polytope de Daniil Koshelyuk.
-    Cat: Lloc web en desemvolupament per a projecte Polytope de Daniil Koshelyuk.
+    Eng: >
+        My name is <a href="https://daniil.koshelyuk.site"><b>Daniil Koshelyuk</b></a>.
+        <br>
+        <br>
+        I am an <b>architect</b> with experience in <b>coding</b>. After <b>Bachelor's in Architecture</b> in Moscow Architectural Institute, I found a way to combine the two mentioned fields in the <b>Master of Advanced Architecture 02</b> in the <a href="https://iaac.net/">Institute for Advanced Architecture in Catalalonia</a>. There I started to work on <b>computationally enhanced design</b>, <b>digital fabrication</b> and work with <b>virtual spaces with Augmented and Virtual Reality</b>. My latest experiments revolve around these concepts ranging from <b>interactive architectural visualizations</b>, <b>parametric design</b>, to <b>museum and event installations</b> and so on. I further expanded my toolsets by enrolling in <a href="http://fabacademy.org/2020/labs/tinkerers/students/daniil-koshelyuk/"><b>FabAcademy</b></a> focusing on bringing abstract design ideas for practical uses through full cycle upto production.
+        <br>
+        <br>
+        Over past years, I have been working on a range of freelance projects, also as a  <b>faculty, assistant and researcher</b> with <b>IAAC and <a href="https://www.ied.edu/ied-locations/barcelona?activityId=701w0000001KUFu&gclid=CjwKCAjw_o-HBhAsEiwANqYhp5JVvjh2svP7tmQfCto8l2idXciLq9nvkC3Fxfh5pMmvHeimWpgK7RoC25wQAvD_BwE">IED of Barcelona</a></b> working on various seminars and workshops, and finally, developing tools for <b>blending physical spaces with digital data</b>. One example of such tool is <a href="https://holofab.github.io"><b>Holofab</b></a> (work in progress) - an open-source tool allowing you to connect Grasshopper3D with Unity3D for uses around digital fabrication with my colleagues Armin and Ardeshir.
+        <br>
+        <br>
+        Project <b>Polytope</b> is imagined as an outlet through which I aim to reach more practical applications for these kind of workflows in commerce, education and research.
+    Esp: >
+        Me llamo <a href="https://daniil.koshelyuk.site"><b>Daniil Koshelyuk</b></a>.
+        <br>
+        <br>
+        Soy <b>arquitecto</b> con experiencia en <b>programación</b>. Después de mi  <b>grado universitario en Arquitectura</b> en Instituto de Arquitectura de Moscú, he encontrado modo de combinar los dos direcciones de interés dentro de <b>Master de Arquitectura Avanzada 02</b> en <a href="https://iaac.net/">Instituto de Arquitectura Avanzada de Cataluña</a>. Allí he empezado trabajar con <b>diseño aumentado computacionalmente</b>, <b>fabricación digital</b> y finalmente trabajando con <b>espacios virtuales con Realidad Virtual y Aumentada</b>. Mis últimos experimentos están centrados alrededor de estos conceptos para usos oscilando entre <b>visualización interactiva en arquitectura</b>, <b>diseño parametrico</b>, <b>instalaciones para museos y eventos</b>, etc. Despues he decidio anadir mas heramientas a mi arsenalo entransdo en programa de <a href="http://fabacademy.org/2020/labs/tinkerers/students/daniil-koshelyuk/"><b>FabAcademy</b></a> enfocando en ciclo practico trayendo ideas abstractas hasta produccion.
+        <br>
+        <br>
+        En ultimos años estaba trabajando en una serie de proyectos freelance, tambien como un <b>assistente, desarrollador o professor</b> en <b>IAAC y <a href="https://www.ied.edu/ied-locations/barcelona?activityId=701w0000001KUFu&gclid=CjwKCAjw_o-HBhAsEiwANqYhp5JVvjh2svP7tmQfCto8l2idXciLq9nvkC3Fxfh5pMmvHeimWpgK7RoC25wQAvD_BwE">IED de Barcelona</a></b> en unos seminarios y workshops, y desarollando heramientas para <b>mezclar espacios fisicos con data digital</b>. Un ejemplo particular es <a href="https://holofab.github.io"><b>Holofab</b></a> (en progresso) - una herramienta de fuente abierta permitiendo coneccion entre Grasshopper3D y Unity3D para usos en fabricación digital con mis colegas Armin y Ardeshir.
+        <br>
+        <br>
+        El proyecto <b>Polytope</b> esta imaginado como una salida profesional con que intento llegar a proyectos prácticos utilizando estas ideas en comercio, educación y desarrollo.
+    Cat: >
+        Em dic <a href="https://daniil.koshelyuk.site"><b>Daniil Koshelyuk</b> </a>.
+        <br>
+        <br>
+        Sóc <b>arquitecte</b> amb experiència en <b>programació </b>. Després de la meva <b>grau universitari en Arquitectura</b> en Institut d'Arquitectura de Moscou, he trobat manera de combinar els dos avingudas d'interès dins d'<b>Màster d'Arquitectura Avançada 02</b> a <a href = "https://iaac.net/">Instituto d'Arquitectura Avançada de Catalunya</a>. Allà he començat a treballar amb <b>disseny augmentat computacionalment</b>, <b>fabricació digital</b> i finalment treballant amb <b>espais virtuals amb Realitat Virtual i Augmentada</b>. Els meus darrers experiments estan centrats al voltant d'aquests conceptes per a usos oscil·lant entre <b>visualització interactiva en arquitectura</b>, <b>disseny parametrico</b>, <b>instal·lacions per a museus i esdeveniments</b>, etc. Despres he decidit afegir més eines al meu arsenalo entrant en programa de <a href="http://fabacademy.org/2020/labs/tinkerers/students/daniil-koshelyuk/"><b>FabAcademy</b></a> enfocant en cicle pràctic portant idees abstractes fins producció.
+        <br>
+        <br>
+        En ultims anys estava treballant en una sèrie de projectes freelance, també com un <b>assistent, desenvolupador o professor</b> a <b>IAAC i <a href = "https://www.ied.edu/ied- locations / barcelona? activityId = 701w0000001KUFu & gclid = CjwKCAjw_o-HBhAsEiwANqYhp5JVvjh2svP7tmQfCto8l2idXciLq9nvkC3Fxfh5pMmvHeimWpgK7RoC25wQAvD_BwE "> IED de Barcelona </a></b> en uns seminaris i workshops, i desenvolupant eines per a <b>barrejar espais físics amb data digital</b>. Un exemple particular és <a href="https://holofab.github.io"><b>Holofab</b></a> (en pogresso) - una eina de codi obert permetent conección entre Grasshopper3D i Unity3D per a usos en fabricació digital amb els meus col·legues Armin i Ardeshir.
+        <br>
+        <br>
+        El projecte <b>Polytope</b> es imaginat com una sortida professional amb que intento arribar als projectes pràctics utilitzant aquestes idees en comerç, educació i desenvolupament.
 
 test:
     Eng:
