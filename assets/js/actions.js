@@ -1,3 +1,9 @@
+$( window ).on("load", function() {
+    watchLanguage();
+    watchScroll();
+
+    resetLanguage();
+});
 ////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////// Language ///////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -5,26 +11,24 @@ document.addEventListener('click', function (event) {
     if (!event.target.matches('.navigation-button')) return;
 
 	event.preventDefault();
-    console.log(event.target);
+    // console.log(event.target);
 
+    toggleMenu();
+}, false);
+
+function toggleMenu(){
     var menu = $( ".navigation-section" );
-    console.log(menu);
+    // console.log(menu);
     menu.toggleClass("shown");
 
     var menuButton = $( ".navigation-button" );
     menuButton.toggleClass("disabled");
-}, false);
+}
 ////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////// Language ///////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 const languages = ["Eng", "Esp", "Cat"];
 const defaultLanguage = "Eng";
-
-$( window ).on("load", function() {
-    watchLanguage();
-
-    resetLanguage();
-});
 // Watch for toggling of language switch.
 function watchLanguage() {
     var lang_element = $('.lang-element');
@@ -39,7 +43,7 @@ function watchLanguage() {
         selector = $('.lang-element.active').text().replace(/\s+/g, "");
         if (selector == "")
             selector = defaultLanguage;
-        console.log("New target language: " + selector);
+        // console.log("New target language: " + selector);
         target_section = $('.lang-section.'+selector);
 
         target_section.addClass('lang-active');
@@ -58,13 +62,67 @@ function resetLanguage() {
         langElement;
     if (lang == "Null")
         lang = defaultLanguage;
-    console.log("Initial lnaguage detected: " + lang);
+    // console.log("Initial lnaguage detected: " + lang);
 
     langElement = $('.lang-element.'+lang);
-    console.log("LangElement: "+langElement);
+    // console.log("LangElement: "+langElement);
     if (langElement)
         langElement.click();
 };
+
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// General ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+// Scroll variables.
+var xDown = null, yDown = null;
+// Watch for scrolling.
+function watchScroll() {
+    document.addEventListener('touchstart', handleTouchStart, false);
+    document.addEventListener('touchmove', handleTouchMove, false);
+};
+// Swipe detection handlers.
+function handleTouchStart(event) {
+    xDown = event.touches[0].clientX;
+    yDown = event.touches[0].clientY;
+};
+function handleTouchMove(event) {
+    if ( !xDown || !yDown ) { return; }
+
+    var xUp = event.touches[0].clientX,
+        yUp = event.touches[0].clientY,
+        xDiff = xDown - xUp,
+        yDiff = yDown - yUp;
+
+    if (Math.abs(xDiff) > Math.abs(yDiff)) {
+        if (xDiff > 0)  { scrollLeft(); }
+        else            { scrollRight(); }
+    } else {
+        if (yDiff > 0)  { scrollUp(); }
+        else            { scrollDown(); }
+    };
+
+    xDown = null;
+    yDown = null;
+};
+function scrollLeft(){
+    var menu = $( ".navigation-section" );
+    // console.log(menu);
+    if (!menu.hasClass("shown"))
+        toggleMenu();
+
+}
+function scrollRight(){
+    var menu = $( ".navigation-section" );
+    // console.log(menu);
+    if (menu.hasClass("shown"))
+        toggleMenu();
+}
+function scrollUp(){
+
+}
+function scrollDown(){
+
+}
 ////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////// General ////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -119,10 +177,10 @@ function getLinkParameter(object, param) {
 function setLinkParameter(object, param, value) {
     var query = $(object).attr('href'),
         baseLink = window.location.hostname;
-    console.log(query);
-    console.log(baseLink);
+    // console.log(query);
+    // console.log(baseLink);
 
-    if (query.includes(baseLink) || query.startsWith("/")){ // second is for testing locally 
+    if (query.includes(baseLink) || query.startsWith("/")){ // second is for testing locally
         if (value != "Null" && query != null) {
             var valueCurrent = getLinkParameter(object, param),
                 sign = '?',
