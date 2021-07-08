@@ -13,7 +13,17 @@ layout: base
                 <br>
                 <br>
 
-                <p>{{ page.description[language] }}</p>
+                <div class="contentFit underlineLinks">
+                    {{ page.description[language] | liquify }}
+                </div>
+
+                <br>
+                <br>
+                <hr>
+                <br>
+                <div class="contentFit underlineLinks">
+                    {{ site.data.pageServices.contact[language] | liquify }}
+                </div>
             </div>
         {% endfor %}
    </div>

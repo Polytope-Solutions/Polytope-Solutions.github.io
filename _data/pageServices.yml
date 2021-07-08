@@ -8,6 +8,14 @@ description:
     Esp: Sitio web en desarrollo para un proyecto Polytope de Daniil Koshelyuk.
     Cat: Lloc web en desemvolupament per a projecte Polytope de Daniil Koshelyuk.
 
+contact:
+    Eng: >
+        If you have a project in mind that could benefit from these ideas describe what you're looking for so we can start a conversation <a href="{{ site.email | prepend: "mailto:" | append: "?Subject=" | append: page.serviceName | replace: "-", "%20"}}">over here</a>.
+    Esp: >
+        Si tiene un proyecto en mente que podría beneficiarse de estas ideas, describa lo que está buscando para que podamos iniciar una conversación <a href="{{ site.email | prepend:"mailto:"| append:"?Subject="| append: page.serviceName }}">aquí</a>.
+    Cat: >
+        Si teniu en ment un projecte que es pugui beneficiar d’aquestes idees, descriviu el que busqueu per iniciar una conversa <a href="{{ site.email | prepend:"mailto:"| append:"?Subject="| append: page.serviceName | replace: "-", "%20"}}">aquí</a>.
+
 test:
     Eng:
     Esp:

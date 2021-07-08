@@ -32,6 +32,10 @@
     bottom: 0
     right: 2vw
     align-items: center
+    pointer-events: none
+
+    > *
+        pointer-events: auto
 
     @media screen and (max-width: $screenWidthHideNavigation)
         display: none

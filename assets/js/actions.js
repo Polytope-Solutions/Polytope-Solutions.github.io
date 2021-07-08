@@ -1,3 +1,5 @@
+---
+---
 $( window ).on("load", function() {
     watchLanguage();
     watchScroll();
@@ -27,8 +29,8 @@ function toggleMenu(){
 ////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////// Language ///////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
-const languages = ["Eng", "Esp", "Cat"];
-const defaultLanguage = "Eng";
+const languages = "{{ site.languages.langItem }}";
+const defaultLanguage = "{{ site.defaultLanguage }}";
 // Watch for toggling of language switch.
 function watchLanguage() {
     var lang_element = $('.lang-element');

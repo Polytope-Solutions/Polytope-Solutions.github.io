@@ -57,6 +57,7 @@ markdown:                   kramdown
 plugins:
   - jekyll-feed
   - jekyll-datapage-generator
+  - jekyll-liquify
 
 # Pages to Auto generate
 # page_gen-dirs:              true

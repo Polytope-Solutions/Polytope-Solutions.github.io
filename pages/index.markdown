@@ -15,7 +15,9 @@ permalink: /
                 <br>
                 <br>
 
-                <p>{{ site.data.pageIndex.description[language] }}</p>
+                <div>
+                    {{ site.data.pageIndex.description[language] }}
+                </div>
 
                 <br>
                 <hr>

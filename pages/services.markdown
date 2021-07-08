@@ -15,7 +15,9 @@ permalink: /services
                 <br>
                 <br>
 
-                <p>{{ site.data.pageServices.description[language] }}</p>
+                <div>
+                    {{ site.data.pageServices.description[language] }}
+                </div>
                 <br>
 
                 <ul>
