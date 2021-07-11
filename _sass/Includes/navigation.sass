@@ -27,9 +27,10 @@
     position: fixed
     display: flex
     z-index: 3
-    width: 25vw
-    top: 0
+    width: 30vw
     bottom: 0
+    min-height: 100vh
+    max-height: 100vh
     right: 2vw
     align-items: center
     pointer-events: none
@@ -60,16 +61,16 @@
     position: absolute
     display: block
     z-index: 4
-    bottom: $contentOffset
-    min-height: $contentOffset
+    bottom: 0
+    right: 0
+    padding-bottom: $bottomOffset
     min-width: 25vw
     justify-content: left
-
-    @media screen and (max-width: $screenWidthSmall)
-        font-size: 1.5vh
+    //font-size: 1.5vh
+    //
+    // @media screen and (max-width: $screenWidthSmall)
 
     > *
-
         &:hover
             cursor: pointer
 
