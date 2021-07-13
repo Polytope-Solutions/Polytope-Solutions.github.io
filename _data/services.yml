@@ -66,7 +66,7 @@
             Term <b>parametric design</b> refers to an approach where design is treated as a <b>protocol</b> rather than a standalone result. In this paradigm, we as designers create families of design solutions where <b>parameters</b> inform and customize the solution to fit <b>site, nature, physics, design, usage, or any other</b> requirements a specific problem might have. Instead of <b>manual interpretation</b> of evergrowing complex conditions designers face, we offload parts of the solution to the computer to be dealt with <b>precision</b>.
             <br>
             <br>
-            In the years of experimenting and teaching <a href="https://www.grasshopper3d.com/"><b>Grasshopper 3D</b></a> at the <a href="https://iaac.net/"><b>Institute for Advanced Architecture in Catalalonia (IAAC)</b></a> I had experience applying this mindset to problems like:<br>
+            In the years of experimenting and teaching <a href="https://www.grasshopper3d.com/"><b>Grasshopper 3D</b></a> at the <a href="https://iaac.net/"><b>Institute for Advanced Architecture in Catalonia (IAAC)</b></a> I had experience applying this mindset to problems like:<br>
             - <b>digitizing design solution</b> to allow free variation;<br>
             - digitizing or processing of physical spaces, objects, or actuations to a <b>usable digital representative model</b> to serve as a simulation or input for further development;<br>
             - <b>cataloging design solutions</b> to explore the visual language of certain form factor;<br>
@@ -129,9 +129,66 @@
         Esp: Diseño para fabricación digital
         Cat: Disseny per a fabricació digital
     description:
-        Eng: Content coming soon!
-        Esp: ¡Contenido viene pronto!
-        Cat: Contingut ve pronperament!
+        Eng: >
+            Recent advancements in <b>democratizing</b> fabrication machines and their usage techniques create a revolution for small scale manufacturing that is proportional to the revolution of <b>personal computing</b>.
+            <br>
+            <br>
+            This shift slowly but surely is reaching the design space and creates a unique way of expression for <b>complex geometries</b>. On one hand, it is now possible to fit with <b>precision context-specific limitations</b> with <b>no additional cost for variation</b>, on the other hand, mathematically and computationally enhanced geometries actually become possible to produce.
+            <br>
+            <br>
+            Due to an ubiquitous spread of <a href="https://www.fablabs.io/labs"><b>Fabrication Laboratories (FabLabs)</b></a> in most cities all over the world, enthusiasts and small businesses now have a way to tap into these technologies. Each tool, however, not only imposes <b>specific limitations and considerations</b> to what is possible to produce in terms of <b>machines, materials, shapes and assembly</b>, but has a range of <b>unique geometrical strategies</b> that if used correctly can align and possibly further enhance the target usage. These factors call for specialists with technical knowledge and experience to help navigate design ideas as close as possible towards an actual result.
+            <br>
+            <br>
+            During the <a href="https://iaac.net/educational-programmes/masters-programmes/master-advanced-architecture/"><b>Master of Advanced Architecture 02</b></a> and the <a href="http://fabacademy.org/2020/labs/tinkerers/students/daniil-koshelyuk/"><b>FabAcademy Course</b></a> (in progress) at the Institute for Advanced Architecture of Catalonia (IAAC), I was experimenting with a range of techniques both for <b>planar and spatial digital fabrication</b>:<br><b>
+            - laser cutting;<br>
+            - vinyl cutting;<br>
+            - small and large scale CNC;<br>
+            - 3d printing;<br>
+            - molding and casting;<br>
+            - custom electronics design and fabrication.</b>
+            <br>
+            <br>
+            <b>Polytope</b> can provide <b>creative solutions</b> with both limitations and potentials of techniques, machines, materials and assembly in mind to ensure smooth fabrication process towards <b>functional prototypes</b>; <b>guidance and personalized development</b> in translating your design ideas to fabricatable pieces; as well as, for specific cases, provide <b>support</b> through the fabrication process itself.
+        Esp: >
+            Los avances recientes en la <b>democratización</b> de las máquinas de fabricación y sus técnicas de uso crean una revolución para la fabricación a pequeña escala, que es proporcional a la revolución de la <b>informática personal</b>.
+            <br>
+            <br>
+            Este cambio, lentamente pero seguramente, está llegando al espacio del diseño y crea una forma única de expresión para <b>geometrías complejas</b>. Por un lado, ahora vuelve ser posible adaptarse a <b>limitaciones específicas del contexto de precisión</b> sin <b>ningún costo adicional por variación</b>, por otro lado, las geometrías mejoradas matemáticamente y computacionalmente vuelvan a ser realmente posibles para producir.
+            <br>
+            <br>
+            Debido a la omnipresencia de <a href="https://www.fablabs.io/labs"><b>Laboratorios de Fabricacion (FabLabs)</b></a> en la mayoría de las ciudades del mundo, los entusiastas y las pequeñas empresas ahora llegan a una forma de aprovechar estos tecnologías. Sin embargo, cada herramienta no solo impone <b>limitaciones y consideraciones específicas</b> a lo que es posible producir en términos de <b>máquinas, materiales, formas y montaje</b>, sino que tiene una gama de <b>estrategias geométricas únicas</b> que, si se usan correctamente, pueden alinear y posiblemente mejorar aún más el uso objetivo. Estos factores requieren especialistas con conocimiento técnico y experiencia para ayudar a navegar las ideas de diseño lo más cerca posible a un resultado real.
+            <br>
+            <br>
+            Durante el <a href="https://iaac.net/educational-programmes/masters-programmes/master-advanced-architecture/"><b>Master of Advanced Architecture 02</b></a> y en <a href="http://fabacademy.org/2020/labs/tinkerers/students/daniil-koshelyuk/"> <b>Curso de FabAcademy</b></a> (en progresso) en el Instituto de Arquitectura Avanzada de Cataluña (IAAC), estaba experimentando con una variedad de técnicas para la <b>fabricación digital plana y espacial</b>:<br><b>
+            - corte por láser;<br>
+            - corte de vinilo;<br>
+            - CNC de pequeña y gran escala;<br>
+            - impresión 3d;<br>
+            - moldeado y fundición;<br>
+            - diseño y fabricación de electrónica personalizada.</b>
+            <br>
+            <br>
+            <b>Polytope</b> puede proporcionar <b>soluciones creativas</b> teniendo en cuenta tanto las limitaciones como el potencial de técnicas, máquinas, materiales y ensamblaje para garantizar un proceso de fabricación mas flujo hacia <b>prototipos funcionales</b>; <b>orientación y desarrollo personalizado</b> para traducir sus ideas de diseño en piezas fabricables; y adicionalmente, para casos específicos, proporcionar <b>soporte</b> durante el proceso de fabricación en si.
+        Cat: >
+            Els avenços recents en la <b>democratització</b> de les màquines de fabricació i les seves tècniques d'us creen una revolució per a la fabricació a petita escala, que és proporcional a la revolució de la <b>informàtica personal</b>.
+            <br>
+            <br>
+            Aquest canvi, lentament però segurament, està arribant a l'espai de el disseny i crea una forma única d'expressió per <b>geometries complexes</b>. D'una banda, ara torna a ser possible adaptar-se a <b>limitacions específiques de l'context de precisió</b> sense <b>cap cost addicional per variació</b>, d'altra banda, les geometries millorades matemàticament i computacionalment tornin a ser realment possibles per produir.
+            <br>
+            <br>
+            A causa de l'omnipresència de <a href="https://www.fablabs.io/labs"><b>Laboratoris de Fabricacion (Fablabs)</b></a> en la majoria de les ciutats de l'món, els entusiastes i les petites empreses ara arriben a una forma d'aprofitar les tecnologies aquests. No obstant això, cada eina no només imposa <b>limitacions i consideracions específiques</b> al que és possible produir en termes de <b>màquines, materials, formes i muntatge</b>, sinó que té una gamma de <b>estratègies geomètriques úniques</b> que, si es fan servir correctament, poden alinear i possiblement millorar encara més l'ús objectiu. Aquests factors requereixen especialistes amb coneixement tècnic i experiència per ajudar a navegar les idees de disseny el més a prop possible a un resultat real.
+            <br>
+            <br>
+            Durant el <a href="https://iaac.net/educational-programmes/masters-programmes/master-advanced-architecture/"><b>Master of Advanced Architecture 02</b></a> i en <a href="http://fabacademy.org/2020/labs/tinkerers/students/daniil-koshelyuk/"><b>Curs de FabAcademy</b></a> (en progresso) a l'Institut d'Arquitectura Avançada de Catalunya (IAAC), estava experimentant amb una varietat de tècniques per a la <b>fabricació digital plana i espacial</b>:<br><b>
+            - tall per làser;<br>
+            - tall de vinil;<br>
+            - CNC de petita i gran escala;<br>
+            - impressió 3d;<br>
+            - modelat i fosa;<br>
+            - disseny i fabricació d'electrònica personalitzada.</b>
+            <br>
+            <br>
+            <b>Polytope</b> pot proporcionar <b>solucions creatives</b> tenint en compte tant les limitacions com el potencial de tècniques, màquines, materials i acoblament per garantir un procés de fabricació més flux cap <b>prototips funcionals</b>; <b>orientació i desenvolupament personalitzat</b> per traduir les seves idees de disseny en peces fabricables; i addicionalment, per a casos específics, proporcionar <b>suport</b> durant el procés de fabricació en si.
 
 -   serviceName: Computational-Design-Courses
     lang:

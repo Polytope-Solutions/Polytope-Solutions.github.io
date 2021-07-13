@@ -30,11 +30,11 @@ contact:
 
 customContact:
     Eng: >
-        If one of the described services fits exactly your project idea, but you believe <b>Polytope</b> might be of help any way, we would gladly attend to your interests <a href="{{ site.email | prepend: "mailto:" | append: "?Subject=Custom%20Request" }}">over here</a>. Please, describe in as much details so we could do our best to find a way to collaborate.
+        If one of the described services fits exactly your project idea, but you believe <b>Polytope</b> might be of help any way, we would gladly attend to your interests <a href="{{ site.email | prepend: "mailto:" | append: "?Subject=Custom Request" | replace: " ", "%20" }}">over here</a>. Please, describe in as much details so we could do our best to find a way to collaborate.
     Esp: >
-        Si ninguno de los servicios descritos os parece exactamente correspondiente a su idea de proyecto, pero si usted cree que <b>Polytope</b> podria ayudar igualmente, sera un placer atenderos <a href="{{ site.email | prepend: "mailto:" | append: "?Subject=Custom%20Request" }}">aqui</a>. Por favor, escribenos lo más detallado posible e intentaremos encontrar un modo de colaborar.
+        Si ninguno de los servicios descritos os parece exactamente correspondiente a su idea de proyecto, pero si usted cree que <b>Polytope</b> podria ayudar igualmente, sera un placer atenderos <a href="{{ site.email | prepend: "mailto:" | append: "?Subject=Custom Request" | replace: " ", "%20" }}">aqui</a>. Por favor, escribenos lo más detallado posible e intentaremos encontrar un modo de colaborar.
     Cat: >
-        Si cap dels serveis encaixa exactament a la idea del projecte seu, pero us sembla que <b>Polytope</b> pot servir igualmente, ens agradaria attendre-us <a href="{{ site.email | prepend: "mailto:" | append: "?Subject=Custom%20Request" }}">aqui</a>. Si us plau, descriu-ens el que imagini en detall i intenatrem trbar com podem col·laborar.
+        Si cap dels serveis encaixa exactament a la idea del projecte seu, pero us sembla que <b>Polytope</b> pot servir igualmente, ens agradaria attendre-us <a href="{{ site.email | prepend: "mailto:" | append: "?Subject=Custom Request" | replace: " ", "%20" }}">aqui</a>. Si us plau, descriu-ens el que imagini en detall i intenatrem trbar com podem col·laborar.
 
 test:
     Eng:
