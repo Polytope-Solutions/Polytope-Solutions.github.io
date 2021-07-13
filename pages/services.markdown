@@ -15,7 +15,7 @@ permalink: /services
                 <br>
                 <br>
 
-                <div>
+                <div class="contentFit underlineLinks">
                     {{ site.data.pageServices.description[language] }}
                 </div>
                 <br>
@@ -31,6 +31,10 @@ permalink: /services
                     </li>
                     {% endfor %}
                 </ul>
+                <br>
+                <div class="contentFit underlineLinks">
+                    {{ site.data.pageServices.customContact[language] | liquify }}
+                </div>
             </div>
         {% endfor %}
    </div>

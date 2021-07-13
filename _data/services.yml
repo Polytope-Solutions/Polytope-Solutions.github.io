@@ -66,16 +66,17 @@
             Term <b>parametric design</b> refers to an approach where design is treated as a <b>protocol</b> rather than a standalone result. In this paradigm, we as designers create families of design solutions where <b>parameters</b> inform and customize the solution to fit <b>site, nature, physics, design, usage, or any other</b> requirements a specific problem might have. Instead of <b>manual interpretation</b> of evergrowing complex conditions designers face, we offload parts of the solution to the computer to be dealt with <b>precision</b>.
             <br>
             <br>
-            In the years of experimenting and teaching <b>Grasshopper 3D</b> at the <b>Institute for Advanced Architecture of Catalonia</b> I had experience applying this mindset to problems like:<br><b>
-            - digitizing design solution to allow free variation;<br>
-            - digitizing or processing of physical spaces, objects, or actuations to a usable digital representative model to serve as a simulation or input for further development;<br>
-            - cataloging design solutions to explore the visual language of certain form factor;<br>
-            - embedding complex mathematical and computational techniques in design to achieve a higher level of uniqueness;<br>
-            - investigating the performance of design in physical or environmental conditions to give preliminary understanding in early stages of design;<br>
-            - creating interactive and user-friendly experimenting tools for design or digital fabrication.</b>
+            In the years of experimenting and teaching <a href="https://www.grasshopper3d.com/"><b>Grasshopper 3D</b></a> at the <a href="https://iaac.net/"><b>Institute for Advanced Architecture in Catalalonia (IAAC)</b></a> I had experience applying this mindset to problems like:<br>
+            - <b>digitizing design solution</b> to allow free variation;<br>
+            - digitizing or processing of physical spaces, objects, or actuations to a <b>usable digital representative model</b> to serve as a simulation or input for further development;<br>
+            - <b>cataloging design solutions</b> to explore the visual language of certain form factor;<br>
+            - <b>embedding complex mathematical and computational techniques</b> in design to achieve a higher level of uniqueness;<br>
+            - <b>investigating the performance</b> of design in physical or environmental conditions to give preliminary understanding in early stages of design;<br>
+            - <b>creating interactive and user-friendly experimenting tools</b> for design or digital fabrication.
             <br>
             <br>
             Among these and other situations parametric design serves as an <b>invaluable tool</b> to not only achieve <b>more complex geometrical outcomes</b> but also <b>simplify, streamline and optimize</b> the design process itself allowing designers to focus on <b>creative expression</b>.
+            <br>
             <br>
             <br>
             In light of this <b>Polytope</b> provides services such as <b>translating inspirational material</b> to parametric spatial models; <b>adapting</b> an existing design to the described paradigm; creating a <b>catalog</b> of possible design solutions; <b>exploring complex geometrical forms and patterns</b>; <b>evaluating the performance</b> of a design solution for a given environmental, geometrical or structural conditions; and creation of <b>interfaces</b> abstracting way complex computational processes.
@@ -86,16 +87,17 @@
             El término <b>diseño paramétrico</b> refiere a un acercamiento cuando el diseño está interpretado como <b>un protocolo</b> no tanto como un solo resultado. En este paradigma nosotros como diseñadores creamos una familia de soluciones donde <b>parámetros</b> nos permiten variar y customizar el desenlace para satisfacer los requisitos sea en <b>local geográfico o urbano, actuación física, o del diseño, o bien de uso o cualquiera otra limitación de problema específica</b>. En vez de interpretar aproximadamente condiciones siempre creciente en complejidad con <b>precisión</b>.
             <br>
             <br>
-            En los años de experimentación y enseñanza de <b>Grasshopper 3D</b> en el <b>Instituto de Arquitectura Avanzada de Catalunya</b> he tenido oportunidad aplicar esta mentalidad a problemas alrededor:<br><b>
-            - digitalización de solución existente para poder modificarlo libremente;<br>
-            - digitalización o procesamiento de espacios, objetos o acciones físicos en equivalentes modelos virtuales para servir como simulación o input para desarrollo;<br>
-            - creacion de catalogo de soluciones para explorar lenguaje virtual de un tipo de solución paramétrico;<br>
-            - incorporación de técnicas complejas de matemática o computación en diseño para llegar a la unicidad de expresión;<br>
-            - investigación de rendimiento de una solución en aspectos de estructura o entorno para proveer intuición preliminar en etapas iniciales de diseño;<br>
-            - creación de herramientas interactivas y fáciles de usar para diseño o bien fabricacion digital;</b>
+            En los años de experimentación y enseñanza de <a href="https://www.grasshopper3d.com/"><b>Grasshopper 3D</b></a> en el <a href="https://iaac.net/"><b>Instituto de Arquitectura Avanzada de Cataluña (IAAC)</b></a> he tenido oportunidad aplicar esta mentalidad a problemas alrededor:<br>
+            - <b>digitalización de solución existente</b> para poder modificarlo libremente;<br>
+            - digitalización o procesamiento de espacios, objetos o acciones físicos en <b>equivalentes modelos virtuales funcionales</b> para servir como simulación o input para desarrollo;<br>
+            - <b>creacion de un catalogo</b> de soluciones para explorar lenguaje virtual de un tipo de solución paramétrico;<br>
+            - <b>incorporación de técnicas complejas de matemática o computación</b> en diseño para llegar a la unicidad de expresión;<br>
+            - <b>investigación de rendimiento</b> de una solución en aspectos de estructura o entorno para proveer intuición preliminar en etapas iniciales de diseño;<br>
+            - <b>creación de herramientas interactivas y fáciles de usar</b> para diseño o bien fabricacion digital;
             <br>
             <br>
             Entre estas y otras situaciones el diseño paramétrico sirve como una <b>herramienta imprescindible</b> no solamente para llegar a soluciones <b>más expresivas geométricamente</b>, sino también para <b>facilitar, simplificar y optimizar</b> el proceso de desarrollo en sí, permitiendo al diseñador a enfocar en los <b>aspectos creativos</b>.
+            <br>
             <br>
             <br>
             En luz de esta mentalidad, <b>Polytope</b> presta servicios incluyendo <b>traducción de material inspiracional</b> a modelos paramétricos; <b>adaptación</b> de un diseño existente a paradigma descrita; creación de <b>un catálogo</b> de variantes posibles de una solución; <b>investigación de formas geométricas y patrones complejos</b>; <b>evaluación de rendimiento</b> dentro de unos condiciones relevantes geométricos, ambientales o bien estructurales y tambien creación de <b>interfaces</b> abstrayendo complejidad computacional.
@@ -106,16 +108,17 @@
             El terme <b>disseny paramètric</b> fa referència a un enfocament en què el disseny es tracta com <b>un protocol</b> en lloc d’un resultat autònom. En aquest paradigma, els dissenyadors creem famílies de solucions de disseny on <b>els paràmetres</b> informen i personalitzen la solució per adaptar-la <b>al lloc, a la naturalesa, a la física, al disseny, a l’ús o a altres requisits</b> que pugui tenir un problema específic. En lloc d’interpretar <b>manualment</b> les condicions complexes que creixen els dissenyadors, descarreguem parts de la solució a l’ordinador per tractar-les amb <b>precisió</b>.
             <br>
             <br>
-            Durant els anys d’experimentació i ensenyament de <b>Grasshopper 3D</b> a <b>l’Institut d’Arquitectura Avançada de Catalunya</b>, vaig tenir experiència aplicant aquesta mentalitat a problemes com:<br><b>
-            - solució de disseny de digitalització per permetre la variació lliure;<br>
-            - digitalització o processament d'espais físics, objectes o actuacions a un model representatiu digital utilitzable per servir de simulació o d'entrada per a un desenvolupament posterior;<br>
-            - solucions de disseny de catalogació per explorar el llenguatge visual de determinats factors de forma;<br>
-            - Incorporar tècniques matemàtiques i computacionals complexes en el disseny per aconseguir un nivell més elevat de singularitat;<br>
-            - investigar el rendiment del disseny en condicions físiques o ambientals per donar una comprensió preliminar en les primeres etapes del disseny;<br>
-            - creació d'eines experimentals interactives i fàcils d'utilitzar per al disseny o la fabricació digital.</b>
+            Durant els anys d’experimentació i ensenyament de <a href="https://www.grasshopper3d.com/"><b>Grasshopper 3D</b></a> a <a href = "https://iaac.net/"><b>l'Institut d'Arquitectura Avançada de Catalunya (IAAC)</b></a>, vaig tenir experiència aplicant aquesta mentalitat a problemes com:<br>
+            - <b>digitalització de una solució de disseny</b> per permetre la variació lliure;<br>
+            - digitalització o processament d'espais físics, objectes o actuacions a <b>un model representatiu digital funcional</b> per servir de simulació o d'entrada per a un desenvolupament posterior;<br>
+            - <b>catalogació</b> per explorar el llenguatge visual de determinats factors de forma;<br>
+            - <b>incorporació tècniques matemàtiques i computacionals</b> complexes en el disseny per aconseguir un nivell més elevat de singularitat;<br>
+            - <b>investigació del rendiment</b> del disseny en condicions físiques o ambientals per donar una comprensió preliminar en les primeres etapes del disseny;<br>
+            - <b>creació d'eines experimentals interactives i fàcils d'utilitzar</b> per al disseny o la fabricació digital.
             <br>
             <br>
             Entre aquestes i altres situacions, el disseny paramètric serveix com <b>una eina inestimable</b> per aconseguir no només <b>resultats geomètrics més complexos</b>, sinó també per a <b>simplificar, racionalitzar i optimitzar</b> el procés de disseny en si mateix, cosa que permet als dissenyadors centrar-se en <b>l’expressió creativa</b>.
+            <br>
             <br>
             <br>
             A la llum d’aquest, <b>Polytope</b> proporciona serveis com <b>la traducció de material inspirador</b> a models espacials paramètrics; <b>adaptar</b> un disseny existent al paradigma descrit; crear <b>un catàleg</b> de possibles solucions de disseny; <b>explorar formes i patrons geomètrics</b> complexos; <b>avaluar el rendiment</b> d'una solució de disseny per a determinades condicions ambientals, geomètriques o estructurals; i creació <b>d'interfícies</b> que abstracteixen processos computacionals complexos.
