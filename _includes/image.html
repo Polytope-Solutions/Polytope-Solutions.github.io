@@ -1,0 +1,13 @@
+<br>
+<div class="imageContainer">
+    <div class="imageHolder">
+        <ul>
+            {% assign imageAssetPaths = include.imageAssetPathList | split: "; " %}
+            {% for imageAssetPath in imageAssetPaths %}
+                <li>
+                    <img src="/assets/images/{{ imageAssetPath }}">
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

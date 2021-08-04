@@ -132,6 +132,8 @@
         Eng: >
             Recent advancements in <b>democratizing</b> fabrication machines and their usage techniques create a revolution for small scale manufacturing that is proportional to the revolution of <b>personal computing</b>.
             <br>
+            {% assign imageAssetPathList = page.images[0].direction %}
+            {% include image.html imageAssetPathList=imageAssetPathList %}
             <br>
             This shift slowly but surely is reaching the design space and creates a unique way of expression for <b>complex geometries</b>. On one hand, it is now possible to fit with <b>precision context-specific limitations</b> with <b>no additional cost for variation</b>, on the other hand, mathematically and computationally enhanced geometries actually become possible to produce.
             <br>
@@ -147,11 +149,15 @@
                 &emsp;- molding and casting;<br>
                 &emsp;- custom electronics design and fabrication.</b>
             <br>
+            {% assign imageAssetPathList = page.images[1].direction %}
+            {% include image.html imageAssetPathList=imageAssetPathList %}
             <br>
             <b>Polytope</b> can provide <b>creative solutions</b> with both limitations and potentials of techniques, machines, materials and assembly in mind to ensure smooth fabrication process towards <b>functional prototypes</b>; <b>guidance and personalized development</b> in translating your design ideas to fabricatable pieces; as well as, for specific cases, provide <b>support</b> through the fabrication process itself.
         Esp: >
             Los avances recientes en la <b>democratización</b> de las máquinas de fabricación y sus técnicas de uso crean una revolución para la fabricación a pequeña escala, que es proporcional a la revolución de la <b>informática personal</b>.
             <br>
+            {% assign imageAssetPathList = page.images[0].direction %}
+            {% include image.html imageAssetPathList=imageAssetPathList %}
             <br>
             Este cambio, lentamente pero seguramente, está llegando al espacio del diseño y crea una forma única de expresión para <b>geometrías complejas</b>. Por un lado, ahora vuelve ser posible adaptarse a <b>limitaciones específicas del contexto de precisión</b> sin <b>ningún costo adicional por variación</b>, por otro lado, las geometrías mejoradas matemáticamente y computacionalmente vuelvan a ser realmente posibles para producir.
             <br>
@@ -167,11 +173,15 @@
                 &emsp;- moldeado y fundición;<br>
                 &emsp;- diseño y fabricación de electrónica personalizada.</b>
             <br>
+            {% assign imageAssetPathList = page.images[1].direction %}
+            {% include image.html imageAssetPathList=imageAssetPathList %}
             <br>
             <b>Polytope</b> puede proporcionar <b>soluciones creativas</b> teniendo en cuenta tanto las limitaciones como el potencial de técnicas, máquinas, materiales y ensamblaje para garantizar un proceso de fabricación mas flujo hacia <b>prototipos funcionales</b>; <b>orientación y desarrollo personalizado</b> para traducir sus ideas de diseño en piezas fabricables; y adicionalmente, para casos específicos, proporcionar <b>soporte</b> durante el proceso de fabricación en si.
         Cat: >
             Els avenços recents en la <b>democratització</b> de les màquines de fabricació i les seves tècniques d'us creen una revolució per a la fabricació a petita escala, que és proporcional a la revolució de la <b>informàtica personal</b>.
             <br>
+            {% assign imageAssetPathList = page.images[0].direction %}
+            {% include image.html imageAssetPathList=imageAssetPathList %}
             <br>
             Aquest canvi, lentament però segurament, està arribant a l'espai de el disseny i crea una forma única d'expressió per <b>geometries complexes</b>. D'una banda, ara torna a ser possible adaptar-se a <b>limitacions específiques de l'context de precisió</b> sense <b>cap cost addicional per variació</b>, d'altra banda, les geometries millorades matemàticament i computacionalment tornin a ser realment possibles per produir.
             <br>
@@ -187,8 +197,13 @@
                 &emsp;- modelat i fosa;<br>
                 &emsp;- disseny i fabricació d'electrònica personalitzada.</b>
             <br>
+            {% assign imageAssetPathList = page.images[1].direction %}
+            {% include image.html imageAssetPathList=imageAssetPathList %}
             <br>
             <b>Polytope</b> pot proporcionar <b>solucions creatives</b> tenint en compte tant les limitacions com el potencial de tècniques, màquines, materials i acoblament per garantir un procés de fabricació més flux cap <b>prototips funcionals</b>; <b>orientació i desenvolupament personalitzat</b> per traduir les seves idees de disseny en peces fabricables; i addicionalment, per a casos específics, proporcionar <b>suport</b> durant el procés de fabricació en si.
+    images:
+        - direction: Services\02_DigitalFabrication\00_Laser.jpg
+        - direction: Services\02_DigitalFabrication\01_3DPrint.jpg
 
 -   serviceName: Computational-Design-Courses
     lang:
