@@ -1,79 +1,97 @@
-.navigation-button-holder
-    position: absolute
-    display: block
-    z-index: 4
-    top: 2vw
-    right: 2vw
-    width: 25vw
-
-    @media screen and (min-width: $screenWidthHideNavigation)
-        display: none
-
-    .navigation-button
+.navigation
+    .navigation-button-holder
+        position: absolute
         display: block
-        width: 100%
-        text-align: right
-        font-size: 2.5vh
-        color: $linkColorHover
+        z-index: 4
+        top: 2vw
+        right: 2vw
+        width: 25vw
 
-        &.disabled
-            font-weight: bold
+        @media screen and (min-width: $screenWidthHideNavigation)
+            display: none
 
-        &:hover
-            cursor: pointer
+        .navigation-button
+            display: block
+            width: 100%
+            text-align: right
+            font-size: 2.5vh
+            color: $linkColorHover
+
+            &.disabled
+                font-weight: bold
+
+            &:hover
+                cursor: pointer
 
 
-.navigation-section
-    position: fixed
-    display: flex
-    z-index: 3
-    width: 30vw
-    bottom: 0
-    min-height: 100vh
-    max-height: 100vh
-    right: 2vw
-    align-items: center
-    pointer-events: none
+    .navigation-section
+        position: fixed
+        display: flex
+        z-index: 3
+        width: 30vw
+        bottom: 0
+        min-height: 100vh
+        max-height: 100vh
+        right: 2vw
+        align-items: center
+        pointer-events: none
 
-    > *
-        pointer-events: auto
+        > *
+            pointer-events: auto
 
-    @media screen and (max-width: $screenWidthHideNavigation)
-        display: none
+        @media screen and (max-width: $screenWidthHideNavigation)
+            display: none
 
-        &.shown
-            display: flex
+            &.shown
+                display: flex
 
-    .navigation-container
-        width: 100%
+        .navigation-container
+            width: 100%
 
-    .navigation-item
+        .navigation-item
+            display: block
+            min-width: 100%
+            left: 0
+            text-align: right
+            margin: ($contentOffset / 2) 0 ($contentOffset / 2) 0
+
+        &.secondary
+            margin: ($contentOffset / 2) 0 ($contentOffset / 2) 0
+
+    .navigation-language-holder
+        position: absolute
         display: block
-        min-width: 100%
-        left: 0
-        text-align: right
-        margin: ($contentOffset / 2) 0 ($contentOffset / 2) 0
+        z-index: 4
+        bottom: 0
+        right: 0
+        padding-bottom: $bottomOffset
+        min-width: 25vw
+        justify-content: left
+        //font-size: 1.5vh
+        //
+        // @media screen and (max-width: $screenWidthSmall)
 
-    &.secondary
-        margin: ($contentOffset / 2) 0 ($contentOffset / 2) 0
+        > *
+            &:hover
+                cursor: pointer
 
-.navigation-language-holder
-    position: absolute
-    display: block
-    z-index: 4
-    bottom: 0
-    right: 0
-    padding-bottom: $bottomOffset
-    min-width: 25vw
-    justify-content: left
-    //font-size: 1.5vh
-    //
-    // @media screen and (max-width: $screenWidthSmall)
+        .active
+            text-decoration: underline overline
+            text-underline-offset: 5px
 
-    > *
-        &:hover
-            cursor: pointer
+    .navigation-BG
+        position: fixed
+        display: flex
+        z-index: -1
+        width: 25vw
+        bottom: 0
+        min-height: 100vh
+        max-height: 100vh
+        right: 0
 
-    .active
-        text-decoration: underline overline
-        text-underline-offset: 5px
+        img
+            object-fit: fill
+            opacity: 0.5
+
+            @media screen and (max-width: $screenWidthSmall)
+                opacity: 1.0
