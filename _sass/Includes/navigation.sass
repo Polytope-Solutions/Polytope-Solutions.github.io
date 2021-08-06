@@ -1,11 +1,12 @@
 .navigation
     .navigation-button-holder
-        position: absolute
+        position: fixed
         display: block
         z-index: 4
-        top: 2vw
+        top: 0
         right: 2vw
         width: 25vw
+        padding-top: calc(#{$bottomOffset}/2)
 
         @media screen and (min-width: $screenWidthHideNavigation)
             display: none
@@ -67,6 +68,10 @@
         padding-bottom: $bottomOffset
         min-width: 25vw
         justify-content: left
+
+        @media screen and (max-width: $screenWidthSmall)
+            font-weight: bold
+
         //font-size: 1.5vh
         //
         // @media screen and (max-width: $screenWidthSmall)
@@ -83,7 +88,7 @@
         position: fixed
         display: flex
         z-index: -1
-        width: 25vw
+        width: 30vw
         bottom: 0
         min-height: 100vh
         max-height: 100vh
