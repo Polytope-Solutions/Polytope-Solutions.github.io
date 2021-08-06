@@ -7,6 +7,10 @@
         Eng: >
             <b>Interactive visualization</b> encompasses use of <b>new medium tools</b> to convey the story behind projects to <b>involve target audience</b> on a deeper level and experience projects in a new and specifically tailored way.
             <br>
+            {% assign imageAssetPathList = page.images[0].image.direction %}
+            {% assign imageAssetLinkList = page.images[0].image.link %}
+            {% assign imageAssetDescriptionList = page.images[0].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             Each project, depending on the focus and the idea, can be best conveyed in various ways. Mediums Polytope has experience with are:<br><b>
                 &emsp;- Virtual Reailty (standalone or mobile);<br>
@@ -18,11 +22,19 @@
             <br>
             These vary in <b>visual fidelity, types of interaction, scalability, accessibility</b>. Some projects may require combinations of specific aspects.
             <br>
+            {% assign imageAssetPathList = page.images[1].image.direction %}
+            {% assign imageAssetLinkList = page.images[1].image.link %}
+            {% assign imageAssetDescriptionList = page.images[1].image.description[language] %}
+            <!-- {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %} -->
             <br>
             <b>Polytope</b> can provide <b>analysis</b> of idea to fit interactive system and <b>plan steps of development</b>; <b>organization of existing projects</b> to work for it; setup of <b>basic necessary systems</b>; development of <b>custom behaviors</b> necessary for interaction, activation of virtual assets, and User Experiencs (UX); as well as developing <b>details for virtual environments</b>; or <b>support, documentation and guidance</b> in the development.
         Esp: >
             La <b>visualización interactiva</b> abarca el uso de <b>nuevas herramientas de medios</b> para transmitir la historia detrás de los proyectos para <b>involucrar al público objetivo</b> en un nivel más profundo y experimentar los proyectos de una manera nueva y de forma específicamente adaptada.
             <br>
+            {% assign imageAssetPathList = page.images[0].image.direction %}
+            {% assign imageAssetLinkList = page.images[0].image.link %}
+            {% assign imageAssetDescriptionList = page.images[0].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             Cada proyecto, según el enfoque y la idea, puede transmitirse mejor de varias formas. Los medios con los que Polytope tiene experiencia son:<br><b>
                 &emsp;-Realidad Virtual(independiente o móvil);<br>
@@ -34,11 +46,19 @@
             <br>
             Estos varían en <b>fidelidad visual, tipos de interacción, escalabilidad, accesibilidad</b>. Algunos proyectos pueden requerir combinaciones de aspectos específicos.
             <br>
+            {% assign imageAssetPathList = page.images[1].image.direction %}
+            {% assign imageAssetLinkList = page.images[1].image.link %}
+            {% assign imageAssetDescriptionList = page.images[1].image.description[language] %}
+            <!-- {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %} -->
             <br>
             <b>Polytope</b> puede proporcionar <b>análisis</b> de la idea para que se ajuste al sistema interactivo y <b>planificar los pasos del desarrollo</b>; <b>organización de proyectos existentes</b> para funcionar con estos medios; configuración de <b>sistemas básicos necesarios</b>; desarrollo de <b>comportamientos personalizados</b> necesarios para la interacción, activación de activos virtuales y experiencias de usuario (UX); además de desarrollar <b>detalles para entornos virtuales</b>; o incluso <b>soporte, documentación y orientación</b> en el processo de desarrollo.
         Cat: >
             La <b>visualització interactiva</b> abasta l'ús de <b>noves eines de mitjans</b> per transmetre la història darrere dels projectes per <b>involucrar el públic objectiu</b> en un nivell més profund i experimentar els projectes d'una manera nova i de forma específicament adaptada.
             <br>
+            {% assign imageAssetPathList = page.images[0].image.direction %}
+            {% assign imageAssetLinkList = page.images[0].image.link %}
+            {% assign imageAssetDescriptionList = page.images[0].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             Cada projecte, segons l'enfocament i la idea, pot transmetre millor de diverses formes. Els mitjans amb els quals Polytope té experiència són:<br><b>
                 &emsp;- Realitat Virtual (independent o mòbil);<br>
@@ -50,8 +70,20 @@
             <br>
             Aquests varien en <b>fidelitat visual, tipus d'interacció, escalabilitat, accessibilitat</b>. Alguns projectes poden requerir combinacions d'aspectes específics.
             <br>
+            {% assign imageAssetPathList = page.images[1].image.direction %}
+            {% assign imageAssetLinkList = page.images[1].image.link %}
+            {% assign imageAssetDescriptionList = page.images[1].image.description[language] %}
+            <!-- {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %} -->
             <br>
             <b>Polytope</b> pot proporcionar <b>anàlisi</b> de la idea perquè s'ajusti a sistema interactiu i <b>planificar els passos de el desenvolupament</b>; <b>organització de projectes existents</b> per a funcionar amb aquests mitjans; configuració de <b>sistemes bàsics necessaris</b>; desenvolupament de <b>comportaments personalitzats</b> necessaris per a la interacció, activació d'actius virtuals i experiències d'usuari (UX); a més de desenvolupar <b>detalls per a entorns virtuals</b>; o fins i tot <b>suport, documentació i orientació</b> en el proces de desenvolupament.
+    images:
+        -   image:
+                direction: Services\00_InteractiveVisualization\00_Intraspace.jpg
+                link: http://www.iaacblog.com/programs/intraspace/
+                description:
+                    Eng: <b>Intraspace</b> - Interior Data Visualization with Hololens, Thesis for MAA02, IAAC, 2019
+                    Esp: <b>Intraspace</b> - Visualización de Data en Interiores con Hololens, Tesis en MAA02, IAAC, 2019
+                    Cat: <b>Intraspace</b> - Visualització de Data en Interiores amb Hololens, Tesí en MAA02, IAAC, 2019
 
 -   serviceName: Parametric-Design
     lang:
@@ -132,8 +164,10 @@
         Eng: >
             Recent advancements in <b>democratizing</b> fabrication machines and their usage techniques create a revolution for small scale manufacturing that is proportional to the revolution of <b>personal computing</b>.
             <br>
-            {% assign imageAssetPathList = page.images[0].direction %}
-            {% include image.html imageAssetPathList=imageAssetPathList %}
+            {% assign imageAssetPathList = page.images[0].image.direction %}
+            {% assign imageAssetLinkList = page.images[0].image.link %}
+            {% assign imageAssetDescriptionList = page.images[0].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             This shift slowly but surely is reaching the design space and creates a unique way of expression for <b>complex geometries</b>. On one hand, it is now possible to fit with <b>precision context-specific limitations</b> with <b>no additional cost for variation</b>, on the other hand, mathematically and computationally enhanced geometries actually become possible to produce.
             <br>
@@ -149,15 +183,19 @@
                 &emsp;- molding and casting;<br>
                 &emsp;- custom electronics design and fabrication.</b>
             <br>
-            {% assign imageAssetPathList = page.images[1].direction %}
-            {% include image.html imageAssetPathList=imageAssetPathList %}
+            {% assign imageAssetPathList = page.images[1].image.direction %}
+            {% assign imageAssetLinkList = page.images[1].image.link %}
+            {% assign imageAssetDescriptionList = page.images[1].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             <b>Polytope</b> can provide <b>creative solutions</b> with both limitations and potentials of techniques, machines, materials and assembly in mind to ensure smooth fabrication process towards <b>functional prototypes</b>; <b>guidance and personalized development</b> in translating your design ideas to fabricatable pieces; as well as, for specific cases, provide <b>support</b> through the fabrication process itself.
         Esp: >
             Los avances recientes en la <b>democratización</b> de las máquinas de fabricación y sus técnicas de uso crean una revolución para la fabricación a pequeña escala, que es proporcional a la revolución de la <b>informática personal</b>.
             <br>
-            {% assign imageAssetPathList = page.images[0].direction %}
-            {% include image.html imageAssetPathList=imageAssetPathList %}
+            {% assign imageAssetPathList = page.images[0].image.direction %}
+            {% assign imageAssetLinkList = page.images[0].image.link %}
+            {% assign imageAssetDescriptionList = page.images[0].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             Este cambio, lentamente pero seguramente, está llegando al espacio del diseño y crea una forma única de expresión para <b>geometrías complejas</b>. Por un lado, ahora vuelve ser posible adaptarse a <b>limitaciones específicas del contexto de precisión</b> sin <b>ningún costo adicional por variación</b>, por otro lado, las geometrías mejoradas matemáticamente y computacionalmente vuelvan a ser realmente posibles para producir.
             <br>
@@ -173,15 +211,19 @@
                 &emsp;- moldeado y fundición;<br>
                 &emsp;- diseño y fabricación de electrónica personalizada.</b>
             <br>
-            {% assign imageAssetPathList = page.images[1].direction %}
-            {% include image.html imageAssetPathList=imageAssetPathList %}
+            {% assign imageAssetPathList = page.images[1].image.direction %}
+            {% assign imageAssetLinkList = page.images[1].image.link %}
+            {% assign imageAssetDescriptionList = page.images[1].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             <b>Polytope</b> puede proporcionar <b>soluciones creativas</b> teniendo en cuenta tanto las limitaciones como el potencial de técnicas, máquinas, materiales y ensamblaje para garantizar un proceso de fabricación mas flujo hacia <b>prototipos funcionales</b>; <b>orientación y desarrollo personalizado</b> para traducir sus ideas de diseño en piezas fabricables; y adicionalmente, para casos específicos, proporcionar <b>soporte</b> durante el proceso de fabricación en si.
         Cat: >
             Els avenços recents en la <b>democratització</b> de les màquines de fabricació i les seves tècniques d'us creen una revolució per a la fabricació a petita escala, que és proporcional a la revolució de la <b>informàtica personal</b>.
             <br>
-            {% assign imageAssetPathList = page.images[0].direction %}
-            {% include image.html imageAssetPathList=imageAssetPathList %}
+            {% assign imageAssetPathList = page.images[0].image.direction %}
+            {% assign imageAssetLinkList = page.images[0].image.link %}
+            {% assign imageAssetDescriptionList = page.images[0].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             Aquest canvi, lentament però segurament, està arribant a l'espai de el disseny i crea una forma única d'expressió per <b>geometries complexes</b>. D'una banda, ara torna a ser possible adaptar-se a <b>limitacions específiques de l'context de precisió</b> sense <b>cap cost addicional per variació</b>, d'altra banda, les geometries millorades matemàticament i computacionalment tornin a ser realment possibles per produir.
             <br>
@@ -197,13 +239,27 @@
                 &emsp;- modelat i fosa;<br>
                 &emsp;- disseny i fabricació d'electrònica personalitzada.</b>
             <br>
-            {% assign imageAssetPathList = page.images[1].direction %}
-            {% include image.html imageAssetPathList=imageAssetPathList %}
+            {% assign imageAssetPathList = page.images[1].image.direction %}
+            {% assign imageAssetLinkList = page.images[1].image.link %}
+            {% assign imageAssetDescriptionList = page.images[1].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             <b>Polytope</b> pot proporcionar <b>solucions creatives</b> tenint en compte tant les limitacions com el potencial de tècniques, màquines, materials i acoblament per garantir un procés de fabricació més flux cap <b>prototips funcionals</b>; <b>orientació i desenvolupament personalitzat</b> per traduir les seves idees de disseny en peces fabricables; i addicionalment, per a casos específics, proporcionar <b>suport</b> durant el procés de fabricació en si.
     images:
-        - direction: Services\02_DigitalFabrication\00_Laser.jpg
-        - direction: Services\02_DigitalFabrication\01_3DPrint.jpg
+        -   image:
+                direction: Services\02_DigitalFabrication\00_Laser.jpg
+                link: http://fabacademy.org/2020/labs/tinkerers/students/daniil-koshelyuk//posts/2021-week2-SharpeningBlades.html
+                description:
+                    Eng: <b>Press-Fit</b> exercise with laser cutting, FabAcademy, 2021
+                    Esp: Ejercicio <b>Press-Fit</b> con corto de laser, FabAcademy, 2021
+                    Cat: Exercicí <b>Press-Fit</b> amb tall per làser, FabAcademy, 2021
+        -   image:
+                direction: Services\02_DigitalFabrication\01_3DPrint.jpg
+                link: http://fabacademy.org/2020/labs/tinkerers/students/daniil-koshelyuk//posts/2020-week17-project-update.html
+                description:
+                    Eng: Final project <b>prototype</b>, FabAcademy, 2020
+                    Esp: <b>Prototipo</b> del proyecto final, FabAcademy, 2020
+                    Cat: <b>Prototip</b> del projecte final, FabAcademy, 2020
 
 -   serviceName: Computational-Design-Courses
     lang:
@@ -214,6 +270,10 @@
         Eng: >
             When getting introduced to <b>computational design</b> workflows it might be rather daunting to not only have to get used to new and complex <b>interfaces</b> but find a way to translate <b>abstract ideas</b> into set of <b>actionable commands and elements</b>. Moreover, especially in developing for <b>Virtual and Augmented Reality</b>, as well as when creating design protocols for <b>Parametric Design</b> there are a lot of case specific approaches, and necessary setups, that are not intuitive and require background in fields of <b>mathematics and coding</b>. As architects and designers we are, however, in a unique position to combine <b>creative thinking</b> with <b>rigor</b> that computational workflows bring to the table.
             <br>
+            {% assign imageAssetPathList = page.images[0].image.direction %}
+            {% assign imageAssetLinkList = page.images[0].image.link %}
+            {% assign imageAssetDescriptionList = page.images[0].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             I've had a privilege assistant and teaching in various courses and workshops over past years with <a href="https://iaac.net/">Institute for Advanced Architecture in Catalonia (IAAC)</a> and <a href="https://www.ied.edu/ied-locations/barcelona?activityId=701w0000001KUFu&gclid=CjwKCAjw_o-HBhAsEiwANqYhp5JVvjh2svP7tmQfCto8l2idXciLq9nvkC3Fxfh5pMmvHeimWpgK7RoC25wQAvD_BwE">European Institute of Design (IED) of Barcelona</a>. Among them are:<br>
                 &emsp;- Computational Design Course in IAAC for MAA01;<br>
@@ -224,6 +284,10 @@
             <br>
             Experiences in all of these directions often are applied to practical case studies and are further backed up by <b>practical use</b> in a broad range of projects and installations I have had opportunity to participate in and thus are rooted in <b>up-to-date softwares and techniques</b>.
             <br>
+            {% assign imageAssetPathList = page.images[1].image.direction %}
+            {% assign imageAssetLinkList = page.images[1].image.link %}
+            {% assign imageAssetDescriptionList = page.images[1].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             <b>Polytope</b> can provide programs in both <b>educational</b> and <b>professional</b> contexts, where interest for knowledge in these fields might be driven more by a specific application. There are three main directions that we can provide courses for:<br>
                 &emsp;- <b>Parametric Design</b> with <a href="https://www.grasshopper3d.com/"><b>Grasshopper 3D</b></a>;<br>
@@ -234,6 +298,10 @@
         Esp: >
             Al iniciarse en los flujos de trabajo de <b>diseño computacional</b>, puede resultar bastante abrumador no solo tener que acostumbrarse a <b>interfaces</b> nuevas y complejas, sino encontrar una manera de traducir <b>ideas abstractas</b> en un conjunto de <b>comandos y elementos procesables</b>. Además, especialmente en el desarrollo para <b>Realidad Virtual y Aumentada</b>, así como al crear protocolos de diseño para <b>Diseño Paramétrico</b>, existen muchos enfoques específicos de casos y configuraciones necesarias, que son no es intuitivo y requiere experiencia en los campos de <b>matemáticas y codificación</b>. Sin embargo, como arquitectos y diseñadores, estamos en una posición única para combinar el <b>pensamiento creativo</b> con el <b>rigor</b> que aportan los flujos de trabajo computacionales.
             <br>
+            {% assign imageAssetPathList = page.images[0].image.direction %}
+            {% assign imageAssetLinkList = page.images[0].image.link %}
+            {% assign imageAssetDescriptionList = page.images[0].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             He tenido privilegio de ser un asistente y profesor de clases en varios cursos y workshops durante los últimos años con el <a href="https://iaac.net/">Instituto de Arquitectura Avanzada de Cataluña (IAAC)</a> y el <a href="https://www.ied.edu/ied-locations/barcelona?activityId=701w0000001KUFu&gclid=CjwKCAjw_o-HBhAsEiwANqYhp5JVvjh2svP7tmQfCto8l2idXciLq9nvkC3Fxfh5pMmvHeimWpgK7RoC25wQAvD_BwE">Instituto Europeo de Diseño (IED) de Barcelona.</a> Entre ellos se encuentran:<br>
                 &emsp;- Curso de Diseño Computacional en IAAC para MAA01;<br>
@@ -244,6 +312,10 @@
             <br>
             Las experiencias en todas estas direcciones a menudo se aplicaron a estudios de casos prácticos, y además están respaldadas por el <b>uso práctico</b> en una amplia gama de proyectos e instalaciones en los que he tenido la oportunidad de participar y, por lo tanto, están arraigados en <b > softwares y técnicas actualizados</b>.
             <br>
+            {% assign imageAssetPathList = page.images[1].image.direction %}
+            {% assign imageAssetLinkList = page.images[1].image.link %}
+            {% assign imageAssetDescriptionList = page.images[1].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             <b>Polytope</b> puede proporcionar programas tanto en contextos <b>educativos</b> como <b>profesionales</b>, donde el interés por el conocimiento en estos campos puede estar impulsado más por una aplicación específica. Hay tres direcciones principales para las que podemos ofrecer cursos:<br>
                 &emsp;- <b>Diseño paramétrico</b> con <a href="https://www.grasshopper3d.com/"><b>Grasshopper 3D</b></a>;<br>
@@ -254,6 +326,10 @@
         Cat: >
             A l'iniciar-se en els fluxos de treball de <b>disseny computacional</b>, pot resultar bastant aclaparador no només haver de acostumar-se a <b>interfícies</b> noves i complexes, sinó trobar una manera de traduir <b>idees abstractes</b> en un conjunt de <b>ordres i elements processables</b>. A més, especialment en el desenvolupament per <b>Realitat Virtual i Augmentada</b>, així com a l'crear protocols de disseny per a <b>Disseny Paramètric</b>, hi ha molts enfocaments específics de casos i configuracions necessàries, que són no es intuïtiu i requereix experiència en els camps de <b>matemàtiques i codificació</b>. No obstant, com arquitectes i dissenyadors, estem en una posició única per combinar el <b>pensament creatiu</b> amb el <b>rigor</b> que aporten els fluxos de treball computacionals.
             <br>
+            {% assign imageAssetPathList = page.images[0].image.direction %}
+            {% assign imageAssetLinkList = page.images[0].image.link %}
+            {% assign imageAssetDescriptionList = page.images[0].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             He tingut privilegi de ser un assistent i professor de classes en diversos cursos i workshops durant els últims anys amb l'<a href="https://iaac.net/">Institut d'Arquitectura Avançada de Catalunya (IAAC)</a> i l'<a href="https://www.ied.edu/ied-locations/barcelona?activityId=701w0000001KUFu&gclid=CjwKCAjw_o-HBhAsEiwANqYhp5JVvjh2svP7tmQfCto8l2idXciLq9nvkC3Fxfh5pMmvHeimWpgK7RoC25wQAvD_BwE">Institut Europeu de Disseny (IED) de Barcelona</a>. Entre ells es troben:<br>
                 &emsp;- Curs de Disseny Computacional en IAAC per MAA01;<br>
@@ -264,6 +340,10 @@
             <br>
             Les experiències en totes aquestes direccions sovint es van aplicar a estudis de casos pràctics, ia més estan recolzades pel <b>ús pràctic</b> en una àmplia gamma de projectes i instal·lacions en què he tingut l'oportunitat de participar i, per tant, estan arrelats en <b>programaris i tècniques actualitzades</b>.
             <br>
+            {% assign imageAssetPathList = page.images[1].image.direction %}
+            {% assign imageAssetLinkList = page.images[1].image.link %}
+            {% assign imageAssetDescriptionList = page.images[1].image.description[language] %}
+            {% include image.html imageAssetPathList=imageAssetPathList imageAssetLinkList=imageAssetLinkList imageAssetDescriptionList=imageAssetDescriptionList %}
             <br>
             <b>Polytope</b> pot proporcionar programes tant en contextos <b>educatius</b> com <b>professionals</b>, on l'interès pel coneixement en aquests camps pot estar impulsat més per una aplicació específica. Hi ha tres direccions principals per les quals podem oferir cursos:<br>
                 &emsp;- <b>Disseny paramètric</b> amb <a href="https://www.grasshopper3d.com/"><b>Grasshopper 3D</b></a>;<br>
@@ -271,6 +351,21 @@
                 &emsp;- <b>Codificació</b>, principalment amb C#.
             <br>
             Els cursos es poden personalitzar per adaptar-se a un <b>programa educatiu</b> específic o adaptar-se a un <b>resultat o aplicació</b> personalitzat.
+    images:
+        -   image:
+                direction: Services\03_Courses\00_IED_VR_Zeleros.jpg
+                link: https://iedbarcelona.es/en/noticias-info/stations-of-a-near-future-experience-within-a-hyperloop-station-en/
+                description:
+                    Eng: "<b>Zeleros</b>: interactive Hyperloop station visualization, Master in design for VR, <b>IED</b>, 2020 [image made by students]"
+                    Esp: "<b>Zeleros</b>: visualización de estación de Hyperloop, Máster en diseño en VR, <b>IED</b>, 2020 [imagen hecho por estudiantes]"
+                    Cat: "<b>Zeleros</b>: visualització interactiu d´estació Hyperloop, Màster de disseny en VR, <b>IED</b>, 2020 [imatge fet per estudiants]"
+        -   image:
+                direction: Services\03_Courses\01_IAAC_Workshop.jpg
+                link: http://www.iaacblog.com/programs/w-3-2-syllabus-faculty-2/
+                description:
+                    Eng: "Workshop 'Drafting Deception' for MRAC, IAAC, 2021"
+                    Esp: "Workshop 'Drafting Deception' para MRAC, IAAC, 2021"
+                    Cat: "Workshop 'Drafting Deception' per a MRAC, IAAC, 2021"
 
 -   serviceName: Custom-Scripting
     lang:

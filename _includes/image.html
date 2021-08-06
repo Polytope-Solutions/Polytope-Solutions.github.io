@@ -3,10 +3,17 @@
     <div class="imageHolder">
         <ul>
             {% assign imageAssetPaths = include.imageAssetPathList | split: "; " %}
+            {% assign imageAssetLinks = include.imageAssetLinkList | split: "; " %}
+            {% assign imageAssetDescriptions = include.imageAssetDescriptionList | split: "; " %}
+            {% assign i = 0 %}
             {% for imageAssetPath in imageAssetPaths %}
                 <li>
+                    <a class="image-description" href="{{ imageAssetLinks[i] }}">
+                        {{ imageAssetDescriptions[i] }}
+                    </a>
                     <img src="/assets/images/{{ imageAssetPath }}">
                 </li>
+                {% assign i = i+1 %}
             {% endfor %}
         </ul>
     </div>
